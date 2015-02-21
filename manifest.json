@@ -1,0 +1,26 @@
+{
+  "name": "Wikipedia: Link Talk Comments to Their Revisions",
+  "version": "1.0",
+  "description": "For each timestamp on a Wikipedia talk page, a link is made to
+                  the version of the article at that time.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Created links from talks to versions."
+  },
+  "content_scripts": [
+    { "matches": ["*://en.wikipedia.org/wiki/Talk:*"], "js": ["wikireveal_content_script.js"] }
+  ],
+  "permissions" : [
+    "declarativeContent"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
