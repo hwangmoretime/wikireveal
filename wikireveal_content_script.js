@@ -64,7 +64,7 @@ var findRevisions = function(min_date, max_date, prev_last_date) {
         i++;
     }
 
-    var query_arr = ['http://en.wikipedia.org/w/api.php?action=query&prop=revisions',
+    var query_arr = ['https://en.wikipedia.org/w/api.php?action=query&prop=revisions',
                 'titles=' + title,
                 'rvstart=' + max_date_str,
                 'rvend=' + min_date_str,
