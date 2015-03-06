@@ -1,8 +1,7 @@
 {
-  "name": "Wikipedia: Link Talk Comments to Their Revisions",
+  "name": "Wikipedia: Link Talk Comments to Revisions",
   "version": "1.0",
-  "description": "For each timestamp on a Wikipedia talk page, a link is made to
-                  the version of the article at that time.",
+  "description": "Links timestamps on a Wikipedia talk page to the version of the article at that time.",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
