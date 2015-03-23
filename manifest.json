@@ -13,7 +13,7 @@
     "default_title" : "Created links from talks to versions."
   },
   "content_scripts": [
-    { "matches": ["*://en.wikipedia.org/wiki/Talk:*"], "js": ["wikireveal_content_script.js"], "css": ["wikireveal_css_talk.css"] },
+    { "matches": ["*://en.wikipedia.org/wiki/Talk:*"], "js": ["wikireveal_content_script.js"]},
     { "matches": ["*://en.wikipedia.org/w/index.php?title=*&oldid=*"], "js": ["old_revisions.js"],"css": ["wikireveal_css_revision.css"] }
   ],
   "permissions" : [

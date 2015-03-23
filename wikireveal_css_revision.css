@@ -1,25 +1,43 @@
-html{
-  background-color: blue !important;
-}
-
-
-div#mw-revision-nav {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 500px;
-}
-
-.mw-revision-nav_button {
-    border: 1px solid #BBBBBB;
+div#mw-revision-info {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffdbdb;
     padding: 5px;
+}
+div#mw-revision-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 340px;
+}
+#revision-previous, #revision-latest, #revision-newer {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+.mw-revision-nav_button {
+    width: auto;
+    padding: 5px;
+    border: 1px solid #bbb;
     border-radius: 3px;
 }
-
 .mw-revision-nav_button:hover {
-    border: 1px solid rgb(166, 166, 166);
-    text-decoration: none;
-    /*background-color: #FAFAFA;*/
+    border-color: rgb(166, 166, 166);
     color: #032762;
-    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.mw-revision-diff_button {
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 2px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: rgb(111, 111, 111);
+    display: block;
 }
