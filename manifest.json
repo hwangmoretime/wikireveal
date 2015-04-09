@@ -1,7 +1,7 @@
 {
   "name": "WikiReveal: Link Talk Comments to Revisions",
   "short_name": "WikiReveal",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Links timestamps on a Wikipedia talk page to the version of the article at that time.",
   "background": {
     "scripts": ["background.js"],
